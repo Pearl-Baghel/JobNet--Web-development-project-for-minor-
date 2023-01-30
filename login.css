@@ -34,13 +34,34 @@ nav ul li {
 img {
     float: left;
 }
-.container{
+
+.container {
+    /* display: inline-block; */
     font-size: 1.5rem;
-text-align: center;
+    text-align: center;
 }
-.container img
-{
+
+.container img {
     float: right;
     width: 650px;
     height: 420px;
+}
+
+form {
+    font-size: 20px;
+    /* width: 400px; */
+    /* height: 400px; */
+    display: inline-block;
+float: left;
+
+
+
+
+}
+label{
+    padding: 20px;
+    
+}
+#User{
+    
 }
