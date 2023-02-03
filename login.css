@@ -1,8 +1,39 @@
+:root {
+    --effect: hover 1s linear infinte;
+}
+*{
+    margin: 0;
+}
+
+
 body {
+    /* display: flex; */
+    width: 100vw;
+    height: 20vh;
+    background: black;
+    align-items: center;
+    justify-content: center;
+
+
     background-image: url("background.jpg");
     margin: 0px;
 }
+.heading{
+    text-align: center;
 
+}
+
+p{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    transform: scale(0.5);
+    color: #121212;
+    -webkit-text-stroke: 2px gray;
+}
 nav ul {
     list-style-type: none;
     margin-top: 0px;
@@ -38,6 +69,9 @@ img {
 .container {
     /* display: inline-block; */
     font-size: 1.5rem;
+    /* text-align: center; */
+}
+h1{
     text-align: center;
 }
 
@@ -46,20 +80,34 @@ img {
     width: 650px;
     height: 420px;
 }
+.block{
+    margin: 10px;
+}
 
 form {
+    margin-left: 100px;
+    margin-top: 50px;
     font-size: 20px;
-    /* width: 400px; */
-    /* height: 400px; */
     display: inline-block;
-float: left;
-
-
-
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    
 
 }
+#pass{
+    font-size: 15px;
+}
+.input{
+    text-align: center;
+    padding: 10px;
+    
+}
 label{
-    padding: 20px;
+    padding: 10px;
+    padding: 50px;
+  font-family: sans-serif;
     
 }
 #User{
