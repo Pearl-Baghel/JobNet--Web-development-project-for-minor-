@@ -1,9 +1,11 @@
-*{
-    margin: 0;
-
-}
 body{
+    width: 100vw;
+    height: 20vh;
+ font-family: 'Poppins',sans-serif ;
+    align-items: center;
+    justify-content: center;
     background-color: #070611;
+    margin: 0;
 }
 nav ul {
     list-style-type: none;
