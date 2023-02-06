@@ -198,6 +198,13 @@ button{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform .5s;
+}
+.btn1:hover{
+    color: #1845ad;
+    transform: scale(1.05);
+   
+
 }
 /* .social{
   margin-top: 30px;
